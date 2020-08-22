@@ -9,6 +9,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#E91E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -25,6 +26,7 @@
             android:layout_marginLeft="36dp"
             android:layout_marginTop="50dp"
             android:text="Weight:"
+            android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
         <TextView
@@ -38,6 +40,7 @@
             android:layout_marginLeft="143dp"
             android:layout_marginTop="50dp"
             android:text="TextView"
+            android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
         <TextView
@@ -51,6 +54,7 @@
             android:layout_marginLeft="36dp"
             android:layout_marginTop="86dp"
             android:text=" Height:"
+            android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
         <TextView
@@ -64,6 +68,7 @@
             android:layout_marginLeft="143dp"
             android:layout_marginTop="86dp"
             android:text="TextView"
+            android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
         <TextView
@@ -77,6 +82,7 @@
             android:layout_marginLeft="55dp"
             android:layout_marginTop="158dp"
             android:text="BMI:"
+            android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
         <TextView
@@ -90,6 +96,7 @@
             android:layout_marginLeft="143dp"
             android:layout_marginTop="158dp"
             android:text="TextView"
+            android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
         <Button
@@ -100,7 +107,20 @@
             android:layout_centerHorizontal="true"
             android:layout_marginStart="162dp"
             android:layout_marginBottom="125dp"
-            android:text="Generate" />
+            android:background="#9C27B0"
+            android:text="Generate"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="245dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
 
     </RelativeLayout>
 
